@@ -1,0 +1,37 @@
+.cards{
+    display: flex;
+    border: 10px dashed black;
+    gap: 20px;
+    padding: 20px;
+}
+
+.cards > a{
+    border: 5px solid grey;
+    flex-direction: column;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    border-radius: 10px;
+    transition: 0,25s;
+}
+
+.cards > a > img{
+    width: 200px;
+    height: 120px;
+    border: 2px solid grey;
+    border-radius: 10px;
+
+}
+.cards > a > label{
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Candara;
+    font-size: small;
+}
+.cards> > a :hover{
+
+}

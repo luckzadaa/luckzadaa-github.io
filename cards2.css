@@ -1,0 +1,44 @@
+a{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    text-decoration: none;
+    font-family: Candara;
+
+}
+.thumb{
+    width: 250px;
+    height: 120px;
+    background-color: chartreuse;
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+}
+.tempo{
+    font-size: 10px;
+    background-color: royalblue;
+    margin: 8px;
+    padding: 3px;
+}
+
+.Titulo{
+    background-color: cadetblue;
+    width: 234px;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.titulo > label{
+    background-color: blue;
+    margin: 8px;
+    
+}
+.views{
+    background-color: red;
+    width: 234px;
+    padding: 8px ;
+    font-size: 10px;
+
+}

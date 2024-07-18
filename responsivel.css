@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: yellow;
+}
+
+p{
+    color: white;
+}
+
+img{
+    height: 250px;
+}
+
+@media (max-width: 1000px){
+    body{
+        background-color: blue;
+        
+    }
+    img{
+        height: 80px;
+    }
+}
+@media (max-width: 500px){
+    body{
+        background-color: green;
+        
+    }
+}

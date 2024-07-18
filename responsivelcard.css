@@ -1,0 +1,42 @@
+.cards{
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+.cards a{
+    border-radius: 20px;
+    background-color: rgb(80, 66, 66);
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+.cards > a > label{
+    color: gray;
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    font-family: Candara;
+    font-size: larger;
+}
+.cards> a:hover{
+    background-color: darkgrey;
+}
+.cards> a > label:hover{
+    color: whitesmoke;
+}
+@media (max-width: 1000px){
+    body{
+        background-color: blue;
+        
+    }
+    @media (max-width: 500px){
+        body{
+            background-color: green;
+            
+        }
+    }
